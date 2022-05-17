@@ -1,0 +1,119 @@
+
+
+.title{
+    font-display: verdana ;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-weight: bold;
+    color:rgb(94, 82, 147);
+    font-size:20px;
+    position: relative;
+    top: 80px;
+    left: 350px;
+}
+.button {
+    border: none;
+    color: black;
+    padding: 20px 200px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button2 {background-color: burlywood;} /* Blue */
+
+
+/* navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: rgb(127, 155, 220);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 5px 20px 15px 350px ;
+    transition: top 0.2s;
+    text-decoration: none;
+    font-size:x-large;
+    user-select: none;
+    
+}
+.navbar a:hover {
+    color: black;
+}
+.main {
+    padding: 200px;
+    margin-top: 50px;
+    position: fixed;
+    height: 1500px; /* Used in this example to enable scrolling */
+}
+/* slider */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 100;
+    
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper{
+    width: 100%;
+    height: 80%;
+}
+.swiper-slide img{   
+    width: 100%; 
+    height: fit-content;  
+}
+.swiper-wrapper{
+    position: absolute;
+    top: 10%;
+}
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color: white;
+}
+.swiper .swiper-pagination-bullet-active{
+    background-color: white;
+}
+/* section about theme park */
+.divBox1 {
+    width: 700px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    left: 10px;
+    background-color: lightgrey;
+    background-color: none;
+    text-align: center;
+    }
+.section-about{
+    text-align: left;
+    position: relative;
+
+}
+/*footer section */
+.footer{
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    height: 40px; /* Height of the footer*/     
+
+}
+.address{
+    position: relative;
+
+}
